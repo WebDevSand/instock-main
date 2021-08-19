@@ -1,0 +1,10 @@
+@use './Partials/mixins' as *;
+@use './Partials/typography' as *;
+@use './Partials/variables' as *;
+
+body {
+    font-family: $titillium;
+    box-sizing: border-box;
+    background-color: $grey;
+}
+
